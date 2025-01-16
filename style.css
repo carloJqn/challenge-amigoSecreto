@@ -160,3 +160,8 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-draw:disabled {
+    background-color: #a1a1a1;
+    cursor: not-allowed;
+}
